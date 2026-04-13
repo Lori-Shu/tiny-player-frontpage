@@ -18,7 +18,7 @@ export default function Home() {
           
           {/* 标题与描述 */}
           <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
-            tiny_player
+            tiny-player
           </h1>
           <p class="text-gray-500 mb-10 text-sm">
             基于底层高性能架构，纯粹的媒体播放器。告别臃肿。
