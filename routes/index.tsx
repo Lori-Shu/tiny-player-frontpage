@@ -35,16 +35,26 @@ export default function Home() {
         </div>
 
         {/* 顶部导航 (占位) */}
-        <nav class="relative z-10 w-full px-8 py-6 flex justify-between items-center opacity-80">
-          <span class="font-black text-xl tracking-tighter">tiny-player</span>
-          <a href={repoUrl} class="text-sm hover:text-blue-400 transition-colors">GitHub</a>
+        <nav class="relative z-10 w-full px-8 py-6 flex flex-col md:flex-row justify-center items-center opacity-80 border-4 border-red-500">
+            {/* 1. 使用 style 绕过 Tailwind 编译器验证 */}
+            {/* 2. 加上 leading-[0.8] 压缩行高，防止撑破容器 */}
+            <span 
+                class="font-black tracking-tighter whitespace-nowrap leading-[0.8]"
+                style={{ fontSize: "10rem", display: "block" }} 
+            >
+                tiny-player
+            </span>
+            
+            <a href={repoUrl} class="mt-4 md:mt-0 md:ml-8 text-2xl md:text-5xl hover:text-blue-400 transition-colors">
+                GitHub
+            </a>
         </nav>
 
         {/* 核心内容区 - 使用 flex-grow 撑开空间 */}
         <main class="relative z-10 flex-grow flex flex-col items-center justify-center px-6 py-12">
           
           <div class="text-center mb-12 animate-fade-in">
-            <h1 class="text-5xl md:text-8xl font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500">
+            <h1 class="text-5xl md:text-6xl font-black tracking-tighter mb-6 bg-clip-text text-transparent bg-gradient-to-b from-white to-slate-500">
               极简，但不止于快。
             </h1>
             <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
