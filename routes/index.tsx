@@ -207,7 +207,7 @@ export default function Home() {
           <div class="hero-text">
             <h1>极简，但不止于快。</h1>
             <p>
-              基于 Rust 驱动的底层架构，
+              基于 Rust 驱动的底层架构，\n
               <span style={{ color: '#e2e8f0' }}>tiny-player</span> 专注于极致的响应速度与纯净的解码性能。
             </p>
           </div>
@@ -239,7 +239,7 @@ export default function Home() {
               <p>没有广告，没有追踪，只有代码和你的电影。</p>
             </div>
           </div>
-          <div style={{marginTop:'3rem', textAlign:'center', color:'#475569', fontSize:'0.75rem'}}>
+          <div style={{marginTop:'3rem', textAlign:'center', color:'#475569', fontSize:'2.0rem'}}>
             © 2026 Lori-Shu. All rights reserved.
           </div>
         </footer>
