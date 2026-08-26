@@ -199,7 +199,7 @@ export default function Home() {
         {/* 顶部导航 */}
         <nav class="nav-bar">
           <span class="brand-logo">tiny-player</span>
-          <a href={repoUrl} class="github-link">GitHub</a>
+          <a href={repoUrl} class="github-link">GitHub仓库</a>
         </nav>
 
         {/* 核心内容区 */}
@@ -207,7 +207,8 @@ export default function Home() {
           <div class="hero-text">
             <h1>极简，但不止于快。</h1>
             <p>
-              基于 Rust 驱动的底层架构，<span style={{color: '#e2e8f0'}}>tiny-player</span> 专注于极致的响应速度与纯净的解码性能。
+              基于 Rust 驱动的底层架构，
+              <span style={{ color: '#e2e8f0' }}>tiny-player</span> 专注于极致的响应速度与纯净的解码性能。
             </p>
           </div>
 
@@ -218,7 +219,7 @@ export default function Home() {
               <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3.449L9.75 2.1V11.59H0V3.449zm0 17.102L9.75 21.9V12.4H0v8.151zM10.71 1.96L24 0v11.59H10.71V1.96zm0 20.08l13.29 1.96V12.4H10.71v9.64z"/></svg>
               <span style={{fontSize:'1.125rem'}}>立即下载 Windows 版</span>
             </a>
-            <p style={{color:'#64748b', fontSize:'0.875rem'}}>v0.1.0-beta | 适用于 Windows 10/11</p>
+            <p style={{color:'#64748b', fontSize:'0.875rem'}}>适用于 Windows 11</p>
           </div>
         </main>
 
