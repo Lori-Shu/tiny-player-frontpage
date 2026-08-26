@@ -207,7 +207,7 @@ export default function Home() {
           <div class="hero-text">
             <h1>极简，但不止于快。</h1>
             <p>
-              基于 Rust 驱动的底层架构，\n
+              基于 Rust 驱动的底层架构，<br/>
               <span style={{ color: '#e2e8f0' }}>tiny-player</span> 专注于极致的响应速度与纯净的解码性能。
             </p>
           </div>
